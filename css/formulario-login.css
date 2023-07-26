@@ -79,6 +79,28 @@
     cursor: pointer;
 }
 
+/* ----- Responsive para Mobiles ------ */
+
+@media only screen and (max-width: 767px){
+    .formulario_login__form{
+        width: 100%;
+    }
+
+    .formulario_login__input-container{
+       margin-left: 1em;
+       margin-right: 1em; 
+    }
+
+    .boton_formulario_login{
+        width: 40%;
+        margin-left: 7em;
+    }
+
+    .input_label{
+        font-size: 17px;
+    }
+}
+
 
 
 
