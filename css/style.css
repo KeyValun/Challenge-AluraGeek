@@ -398,7 +398,7 @@ body{
   .contacto{
     display: flex;
     flex-direction: column;
-    height: 39em;
+    height: 41.5em;
     padding: 1em 1em;
   }
 
@@ -431,7 +431,7 @@ body{
   .contacto_formulario{
     position: absolute;
     margin-right: 20em;
-    margin-top: 21.5em;
+    margin-top: 24em;
     width: 20em;
   }
 
