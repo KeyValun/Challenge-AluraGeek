@@ -1,0 +1,55 @@
+.total_productos{
+    background-color: #f5f5f5;
+    padding: 3rem 0;
+}
+
+.total_selec_productos{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3.5em;
+    
+}
+
+.total_productos__titulo{
+  font-weight: 700;
+  font-size: 2em;
+  color: #464646;
+}
+
+.agregar_productos__boton{
+    padding: 1em 1em;
+    background-color: #2A7AE4;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.seccion_productos{
+  position: relative;
+  margin-left: 5.5em;
+  margin-right: 4.4em;
+  padding: .1em 0;
+}
+
+.productos_info{
+  position: relative;
+  bottom: 35px;
+}
+
+/*ICONOS CSS*/
+
+.trash_icon{
+  position: relative;
+  left: 10px;
+  bottom: 175px;
+  color: #ececec;
+  cursor: pointer;
+}
+
+.pen_icon{
+  position: relative;
+  left: 35px;
+  bottom: 191px;
+  color: #ececec;
+  cursor: pointer;
+}

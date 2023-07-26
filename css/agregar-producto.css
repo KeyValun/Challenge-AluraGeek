@@ -1,0 +1,113 @@
+.header_boton{
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+  padding: 1em 2em;
+  border-radius: 5px;
+  margin-right: 7em;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.formulario{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 5em;
+    padding-bottom:5em;
+}
+
+.formulario_agregar_productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario_agregar_productos__form{
+    width: 40%;
+}
+
+.formulario_agregar_productos__titulo{
+    margin-bottom: 1.5em;
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #464646;
+}
+
+.input_label{
+    margin-bottom: 1em;
+}
+
+.formulario_agregar_productos__input-container{
+    position: relative;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input-1{
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #a2a2a2;
+    padding: 2em 1em 1em;
+    padding-bottom: .7em;
+    height: 3.25em;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.input-1:focus {
+    outline: none;
+}
+
+.input_label{
+    position: absolute;
+	top: 1em;
+	left: 0.5rem;
+	transition: all 0.25s;
+    font-size: 11px;
+    color: #a2a2a2;
+    padding-left: .5em;
+}
+
+.input_label__descripcion{
+    position: absolute;
+	top: 1em;
+	left: 0.5rem;
+	transition: all 0.25s;
+    font-size: 14px;
+    color: #a2a2a2;
+    padding-left: .5em;
+}
+
+.input-2{
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #a2a2a2;
+    padding: 3.3em 1em 1em;
+    padding-bottom: 2em;
+    height: 3.25em;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 15px; 
+}
+
+.boton_formulario_agregar_productos{
+    padding: 1em 2em;
+    color: #fff;
+    background-color: #2A7AE4;
+    border-radius: 5px;
+    border: none;
+    font-size: .9em;
+    width: 100%;
+    height: 50px;
+}
+
+.boton_formulario_agregar_productos:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.45);
+    cursor: pointer;
+}

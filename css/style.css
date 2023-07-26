@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  width: 94%;
+  margin: 0 auto;
+}
+
+/*Header CSS*/
+
+.header{
+  margin: 1.5em 4.9em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_info{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__input{
+  width: 42%;
+  margin-left: 4em;
+  padding: .8em;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 5em;
+  font-size: 14px;
+  outline: none;
+}
+
+.header__input::placeholder{
+  color: #a2a2a2;
+}
+
+.header__lupa{
+  position: relative;
+  left: -35px;
+  color: #a2a2a2;
+  cursor: pointer;
+}
+
+.header__boton{
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+  padding: .7em 3.5em;
+  border-radius: 5px;
+  margin-right: 5em;
+  cursor: pointer;
+}
+
+.header__boton:hover{
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Banner CSS */
+
+.banner{
+  background: url(../img/Banner2.png);
+  width: 100%;
+  height: 352px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.banner__container{
+  position: relative;
+  margin-left: 4.9em;
+  top: 150px;
+  color: #ffffff;
+}
+
+.banner__titulo{
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: .2em;
+}
+
+.banner__texto{
+  font-weight: 751;
+  font-size: 22px;
+  margin-bottom: 1.5em;
+}
+
+.banner__boton{
+  background-color: #2A7AE4;
+  padding: .8em 1em;
+  border-radius: 5px;
+}
+
+.banner__boton:hover{
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.45);
+}
+
+/* Productos CSS */
+
+.seccion__productos{
+  position: relative;
+  margin-left: 4.9em;
+  margin-right: 5em;
+  background-color: #fff;
+  padding: 3em 0;
+}
+
+.star_wars, .consolas, .diversos{
+  margin: 0 0 2em 0;
+}
+
+.star_wars__head, .consolas__head, .diversos__head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.star_wars__head__titulo, .consolas__head__titulo, .diversos__head__titulo{
+  font-weight: 700;
+  font-size: 2em;
+  color: #464646;
+}
+
+.star_wars__head__boton,
+.consolas__head__boton,
+.diversos__head__boton{
+  color: #2A7AE4;
+  font-weight: 800;
+}
+
+.star_wars__head__boton i,
+.consolas__head__boton i,
+.diversos__head__boton i{
+  margin-left: 10px;
+}
+
+/* Productos Seleccionables CSS*/
+
+.productos__seleccionables{
+  display: inline-block;
+  flex-direction: column;
+}
+
+.container_2{
+  display: inline-block;
+  width: auto;
+  margin: .3em;
+  padding: 20px, 20px;
+  text-align: justify;
+}
+
+.productos__seleccionables img{
+  position: relative;
+  width: 176px;
+  height: 174px;
+  margin-bottom: .5em;
+}
+
+.productos__seleccionables h1{
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+  text-shadow: rgb(70, 70, 70) .5px 0 .5px;
+  margin-bottom: .6em;
+  display: flex;
+  flex-direction: column;
+}
+
+.productos__seleccionables p{
+  font-weight: 600;
+  color: #464646;
+  margin-bottom: .6em;
+}
+
+.productos__seleccionables__boton{
+  color: #2A7AE4;
+  font-weight: 800;
+}
+
+/*Contacto CSS*/
+
+.contacto{
+  padding: 2.7em;
+  background-color: #e4e4e4;
+}
+
+.contenido__contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 94%;
+}
+
+.contenido__contacto_info{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 40%;
+  color: #464646;
+  text-shadow: rgb(70, 70, 70) .5px 0 .5px;
+}
+
+.contacto_links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contacto_formulario{
+  width: 50%;
+}
+
+.contacto_formulario__titulo{
+  margin-bottom: 1em;
+  font-weight: 800;
+  color: #464646;
+}
+
+.form__label{
+  margin-bottom: 1em;
+}
+
+.formulario__input_container{
+  position: relative;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.input{
+  background-color: #fff;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #a2a2a2;
+  padding: 1.375em 0.5em 0.5em;
+  height: 3.25em;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.input, .textarea{
+  font-size: 1em;
+  font-family: 'Raleway';
+}
+
+.input:focus{
+  outline: none;
+}
+
+.input_label{
+  position: absolute;
+  bottom: 3em;
+  left: 0.7em;
+  font-size: 11px;
+}
+
+.textarea{
+  background-color: #fff;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #a2a2a2;
+  padding: 0.5em;
+  border-radius: 7px;
+  width: 100%;
+  height: 5em;
+  resize: none;
+}
+
+.formulario__texarea_container{
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.textarea:focus {
+	outline: none;
+}
+
+.textarea::placeholder{
+  padding-top: .3em;
+  font-size: 15px;
+}
+
+.boton_form{
+  padding: 1em 2em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2A7AE4;
+  border: none;
+  font-size: 14px;
+}
+
+.boton_form:hover{
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.45);
+	cursor: pointer;
+}
+
+/*Footer CSS*/
+
+.rodapie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.rodapie__texto{
+  margin: .3em 0;
+  font-family: 'Raleway';
+  font-weight: 500;
+  color: #464646;
+  text-shadow: rgb(70, 70, 70) .5px 0 .5px;
+}
+
+

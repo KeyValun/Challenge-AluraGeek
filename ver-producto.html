@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ver-producto.css">
+    <script src="https://kit.fontawesome.com/55afbd7b03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header_info">
+            <a href="./index.html"><img class="header__logo" src="./img/Logo.png" alt="logo de AluraGeek"></a>
+            <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
+            <div class="header__lupa">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header> 
+    <main>
+        <section class="ver-producto">
+            <div class="ver-producto_container">
+                <img class="ver-producto_imagen" src="./img/unsplash_6FDXGY9J6y4.png" alt="">
+                <div class="ver-producto-info">
+                <h2>Producto Taza Stormtrooper</h2>
+                <p>$60.00</p>
+                <p>¡Adéntrate en la galaxia lejana con esta increíble taza de los Stormtroopers de Star Wars! Diseñada meticulosamente para cautivar a todos los fanáticos de la legendaria saga, esta taza es el accesorio perfecto para darle un toque épico a tus momentos de café o té.</p>
+            </div>
+            </div>
+        </section>
+        <section class="total_productos">
+            <div class="total_selec_productos container">
+                <h2 class="total_productos__titulo">Productos similares</h2>
+            </div>
+            <section class="productos_similares">
+                <div class="productos_similares_container">
+                    <div class="productos__seleccionables container_2"><img src="./img/consolas/producto1.png" alt="producto1">
+                    <div class="productos_info">
+                        <h1>Xbox Mando</h1>
+                        <p>$ 91,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__seleccionables container_2"><img src="./img/star-wars/producto2.png" alt="producto1">
+                        <div class="productos_info">
+                        <h1>Lego Darth Vader</h1>
+                        <p>$ 75,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__seleccionables container_2"><img src="./img/star-wars/producto3.png" alt="producto1">
+                        <div class="productos_info">
+                        <h1>Yoda Figura</h1>
+                        <p>$ 82,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__seleccionables container_2"><img src="./img/star-wars/producto4.png" alt="producto1">
+                        <div class="productos_info">
+                        <h1>Stormtrooper Figura</h1>
+                        <p>$ 85,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__seleccionables container_2"><img src="./img/star-wars/producto5.png" alt="producto1">
+                        <div class="productos_info">
+                        <h1>Baby Yoda</h1>
+                        <p>$ 85,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__seleccionables container_2"><img src="./img/star-wars/producto6.png" alt="producto1">
+                        <div class="productos_info">
+                        <h1>Kylo Ren Figura</h1>
+                        <p>$ 93,00</p>
+                        <a class="productos__seleccionables__boton" href="#">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="contacto">
+            <div class="contenido__contacto container">
+                <div class="contenido__contacto_info">
+                    <a class="header__logo" href="./index.html"><img src="./img/Logo.png" alt="logo de AluraGeek"></a>
+                    <ul class="contacto_links">
+                        <li class="contacto__enlace"><a href="#">Quienes somos</a></li>
+                        <li class="contacto__enlace"><a href="#">Política de privacidad</a></li>
+                        <li class="contacto__enlace"><a href="#">Programa de fidelidad</a></li>
+                        <li class="contacto__enlace"><a href="#">Nuestras tiendas</a></li>
+                        <li class="contacto__enlace"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="contacto__enlace"><a href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+                <div class="contacto_formulario">
+                    <h2 class="contacto_formulario__titulo">Hable con nosotros</h2>
+                    <form class="form__label" action="">
+                        <div class="formulario__input_container">
+                            <input type="text" name="nombre" id="nombre" class="input inputs" placeholder="" required data-tipo="nombre"><label class="input_label" for="nombre">Nombre</label>
+                        </div>
+                        <div class="formulario__texarea_container">
+                            <textarea class="textarea inputs" name="mensaje" id="mensaje" rows="5" type="text" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
+                        </div>
+                        <input class="boton_form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <p class="rodapie__texto">Desarrollado por Key Val</p>
+        <p class="rodapie__texto">2023</p>
+      </footer>
+</body>
+</html>
