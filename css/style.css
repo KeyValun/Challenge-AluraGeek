@@ -380,9 +380,15 @@ body{
     margin-top: 20px;
   }
 
+  .star_wars__head, .consolas__head, .diversos__head{
+    margin-left: 1em;
+    margin-right: 1.5em;
+  }
+
   .seccion__productos{
-    padding: 0%;
-    margin: 2.8%;
+    flex-direction: column;
+    padding: .5em;
+    margin: 0;
   }
 
 
@@ -398,41 +404,46 @@ body{
   .contacto{
     display: flex;
     flex-direction: column;
-    height: 40em;
-    padding: 2em 1em;
+    position: relative;
+    height: 42em;
+    padding: 2em;
   }
 
   .contenido__contacto img{
-    margin-left: 60px;
-    width: 350%;
-    position: relative;
+    margin-left: 3em;
+    width: 120%;
+    position: absolute;
   }
 
   .contenido__contacto_info{
     display: flex;
     flex-direction: column; 
+    position: absolute;
   }
 
   .contacto_links{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     text-align: center;
-    margin-left: 3em;
-    padding-top: 4em;
-    height: 39%;
-    font-size: 19px;
+    margin-top: 4em;
+    margin-left: 2.2em;
+    height: 15em;
+    font-size: 18px;
+    white-space: pre;
   }
 
   .contacto_formulario__titulo{
+    margin-top: 2em;
     font-size: 20px;
   }
 
   .contacto_formulario{
-    position: relative;
-    margin-right: 20em;
-    margin-top: 25em;
-    width: 25em;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 21em;
+    width: 17em;
   }
 
 }
