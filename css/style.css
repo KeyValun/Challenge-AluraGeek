@@ -327,4 +327,112 @@ body{
   text-shadow: rgb(70, 70, 70) .5px 0 .5px;
 }
 
+/* ----- Responsive para Mobiles ------ */
 
+@media only screen and (max-width: 767px){
+  .header{
+    margin: 4%;
+  }
+
+  .header__input{
+      display: none;
+  }
+
+  .header__lupa{
+    margin-left: 38%;
+    color: #464646;
+  }
+
+  .header__boton{
+      margin-left: 6em;
+      width: 5%;
+      font-size: 14px;
+      padding-left: 3.5%;
+      color: #fff;
+      background-color: #2A7AE4;
+  }
+
+  .banner{
+    height: 215px;
+  }
+
+  .banner__container{
+    top:calc(150px / 2);
+    font-size: 11px;
+  }
+
+  .banner__titulo{
+    font-size: 32px;
+    align-items: center;
+  }
+
+  .banner__texto{
+    font-size: 16px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .banner__boton{
+    margin-left: 28%;
+  }
+
+  .productos__container{
+    margin-top: 20px;
+  }
+
+  .seccion__productos{
+    padding: 0%;
+    margin: 2.8%;
+  }
+
+
+  .figuras, .consola, .diverso{
+    display: none;
+  }
+
+  .seccion__productos img{
+    width: 163px;
+    height: 163px;
+  }
+
+  .contacto{
+    display: flex;
+    flex-direction: column;
+    height: 39em;
+    padding: 1em 1em;
+  }
+
+  .contenido__contacto img{
+    margin-left: 60px;
+    width: 150%;
+    position: relative;
+  }
+
+  .contenido__contacto_info{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .contacto_links{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    margin-left: 3em;
+    padding-top: 80px;
+    height: 45%;
+    font-size: 19px;
+  }
+
+  .contacto_formulario__titulo{
+    font-size: 20px;
+  }
+
+  .contacto_formulario{
+    position: absolute;
+    margin-right: 20em;
+    margin-top: 21.5em;
+    width: 20em;
+  }
+
+}
