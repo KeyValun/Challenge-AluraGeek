@@ -427,7 +427,7 @@ body{
     position: relative;
     text-align: center;
     margin-top: 4em;
-    margin-left: 2.2em;
+    margin-left: 2.8em;
     height: 15em;
     font-size: 18px;
     white-space: pre;
@@ -444,6 +444,11 @@ body{
     position: absolute;
     margin-top: 21em;
     width: 17em;
+  }
+
+  .input_label{
+    bottom: 2em;
+    font-size: 15px;
   }
 
 }
