@@ -404,7 +404,7 @@ body{
 
   .contenido__contacto img{
     margin-left: 60px;
-    width: 150%;
+    width: 350%;
     position: relative;
   }
 
@@ -420,7 +420,7 @@ body{
     text-align: center;
     margin-left: 3em;
     padding-top: 4em;
-    height: 45%;
+    height: 39%;
     font-size: 19px;
   }
 
@@ -429,10 +429,10 @@ body{
   }
 
   .contacto_formulario{
-    position: absolute;
+    position: relative;
     margin-right: 20em;
-    margin-top: 21em;
-    width: 20em;
+    margin-top: 25em;
+    width: 25em;
   }
 
 }
