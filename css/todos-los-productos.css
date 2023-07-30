@@ -53,3 +53,65 @@
   color: #ececec;
   cursor: pointer;
 }
+
+/* ----- Responsive para Mobiles ------ */
+
+@media only screen and (max-width: 767px){
+  .header__logo{
+    width: 150px;
+  }
+
+  .fa-solid{
+    position: relative;
+    padding-left: 1.9em;
+  }
+
+  .total_productos{
+    padding-top: 2em;
+    padding-bottom: 0;
+  }
+
+  .total_selec_productos{
+    display: flex;
+    flex-direction: column;
+    padding: .3em;
+  }
+
+  .total_productos__titulo{
+    font-size: 27px;
+    margin-bottom: .8em;
+  }
+
+  .agregar_productos__boton{
+    width: 60%;
+  }
+
+  .seccion_productos{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: .7em;
+  }
+
+  .trash_icon{
+    position: relative;
+    width: 5%;
+    margin-top: .5em;
+    margin-left: 4.5em;
+  }
+
+  .pen_icon{
+    position: relative;
+    width: 5%;
+    margin-left: 4.5em;
+  }
+
+  .seccion_productos img{
+    width: 163px;
+    height: 163px;
+  }
+
+
+
+
+}

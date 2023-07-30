@@ -338,13 +338,17 @@ body{
       display: none;
   }
 
+  .header__logo{
+    width: 140px;
+  }
+
   .header__lupa{
-    margin-left: 38%;
+    margin-left: 58%;
     color: #464646;
   }
 
   .header__boton{
-      margin-left: 6em;
+      margin-left: 8.5em;
       width: 5%;
       font-size: 14px;
       padding-left: 3.5%;
