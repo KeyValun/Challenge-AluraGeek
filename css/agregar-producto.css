@@ -111,3 +111,47 @@
     box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.45);
     cursor: pointer;
 }
+
+/* ----- Responsive para Mobiles ------ */
+
+@media only screen and (max-width: 767px){
+
+    .header__lupa{
+        margin-left: 60px;
+    }
+
+    .header_boton{
+        width: 40%;
+        font-size: 10.5px;
+        white-space: pre;
+        background-color: #2A7AE4;
+        color: #fff;
+    }
+
+    .formulario{
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+    }
+
+    .formulario_agregar_productos__titulo{
+        font-size: 28px;
+        margin-bottom: 1em;
+    }
+
+    .formulario_agregar_productos__form{
+        width: 100%;
+    }
+
+    .input_label{
+        font-size: 16px;
+    }
+
+    .input-1{
+        height: 5em;
+    }
+
+    .input_label__descripcion{
+        font-size: 16px;
+    }
+
+}
