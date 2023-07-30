@@ -68,7 +68,7 @@
 
   .total_productos{
     padding-top: 2em;
-    padding-bottom: 0;
+    padding-bottom: 0cd;
   }
 
   .total_selec_productos{
@@ -83,7 +83,7 @@
   }
 
   .agregar_productos__boton{
-    width: 60%;
+    width: 50%;
   }
 
   .seccion_productos{
