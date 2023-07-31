@@ -348,7 +348,7 @@ body{
   }
 
   .header__boton{
-      margin-left: 8.5em;
+      margin-left: 10em;
       width: 5%;
       font-size: 14px;
       padding-left: 3.5%;
@@ -357,6 +357,7 @@ body{
   }
 
   .banner{
+    width: 100%;
     height: 215px;
   }
 
@@ -414,7 +415,7 @@ body{
   }
 
   .contenido__contacto img{
-    margin-left: 3em;
+    margin-left: 4em;
     width: 120%;
     position: absolute;
   }
@@ -431,7 +432,7 @@ body{
     position: relative;
     text-align: center;
     margin-top: 4em;
-    margin-left: 2.8em;
+    margin-left: 3.5em;
     height: 15em;
     font-size: 18px;
     white-space: pre;

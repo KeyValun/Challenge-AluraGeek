@@ -58,6 +58,69 @@
   color: #464646;
 }
 
+/* ----- Responsive para Mobiles ------ */
+
+@media only screen and (max-width: 767px){
+
+  .fa-solid{
+    margin-left: 3em;
+  }
+
+  .ver-producto{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .ver-producto_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ver-producto_imagen{
+    width: 100%;
+    margin: 0;
+  }
+
+  .ver-producto-info{
+    padding: 1em;
+    width: 100%;
+  }
+  .ver-producto-info h2{
+    font-size: 25px;
+    white-space: pre;
+  }
+
+  .p-1{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .ver-producto-info p{
+    width: 100%;
+  }
+
+  .total_selec_productos, .container{
+    padding: .5em;
+  }
+
+  .productos_similares_container{
+    padding: .7em;
+    margin: 0;
+  }
+
+  .productos_similares_container img{
+      width: 163px;
+      height: 163px;
+  }
+
+  .productos__seleccionables-1{
+    display: none;
+  }
+
+}
+
 
 
 
